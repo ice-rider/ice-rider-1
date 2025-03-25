@@ -6,8 +6,7 @@ export default function App () {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/*" element={<MainPage />} />
-        <Route path="/test" element={<PoseDetectionComponent />} />
+        <Route path="/*" element={<PoseDetectionComponent />} />
         
       </Routes>
     </BrowserRouter>
